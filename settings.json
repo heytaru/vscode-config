@@ -1,0 +1,72 @@
+{
+    //Default Settings
+    "workbench.startupEditor": "none",
+    "window.zoomLevel": 1,
+    "editor.cursorStyle": "block",
+    "editor.wordWrap": "on",
+    "breadcrumbs.enabled": false,
+    "editor.autoClosingDelete": "always",
+    "editor.minimap.enabled": false,
+    "workbench.activityBar.location": "hidden",
+    "workbench.sideBar.location": "right",
+    "workbench.statusBar.visible": false,
+    "workbench.editor.showTabs": "multiple",
+    "window.menuBarVisibility": "toggle",
+    "editor.formatOnSave": true,
+    "editor.stickyScroll.enabled": true,
+    "editor.linkedEditing": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/node_modules/": true
+    },
+    "editor.inlineSuggest.enabled": true,
+    "editor.codeActionsOnSave": {
+        "source.addMissingImports": "explicit",
+        "source.organizeImports": "explicit"
+    },
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorSurroundingLines": 5,
+    "editor.suggest.showColors": true,
+    
+    // Zen Mode
+    "zenMode.showTabs": "single",
+    
+    // Fonts
+    "editor.fontSize": 11.5,
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontLigatures": true,
+    
+    // Scrollbars
+    "editor.scrollbar.verticalScrollbarSize": 10,
+    "editor.smoothScrolling": true,
+    "editor.scrollbar.horizontal": "hidden",
+    "workbench.list.smoothScrolling": true,
+
+    // Prettier
+    "prettier.enable": true,
+    "prettier.semi": true,
+    "prettier.trailingComma": "all",
+    "prettier.singleQuote": true,
+    
+    // Misc
+    "workbench.settings.applyToAllProfiles": [
+        "editor.fontSize",
+        "editor.fontFamily",
+        "editor.cursorStyle",
+        "editor.wordWrap",
+        "editor.defaultFormatter",
+        "editor.scrollbar.verticalScrollbarSize",
+        "editor.minimap.enabled",
+        "workbench.statusBar.visible",
+        "workbench.activityBar.location",
+        "workbench.sideBar.location",
+        "editor.scrollbar.horizontal"
+    ],
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "workbench.iconTheme": "gruvbox-material-icon-theme",
+}

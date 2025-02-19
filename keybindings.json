@@ -1,0 +1,68 @@
+// Place your key bindings in this file to override the defaults
+[
+    // toggling sidebar using ctrl + e
+    {
+      "command": "workbench.action.toggleSidebarVisibility",
+      "key": "ctrl+e"
+    },
+    {
+      "command": "workbench.files.action.focusFilesExplorer",
+      "key": "ctrl+e",
+      "when": "editorTextFocus"
+    },
+    {
+      "command": "-workbench.action.toggleSidebarVisibility",
+      "key": "ctrl+b"
+    },
+  
+    // basic files operations such as add, rename, delete, copy, paste
+    {
+      "command": "explorer.newFile",
+      "key": "a",
+      "when": "filesExplorerFocus && !inputFocus"
+    },
+    {
+      "command": "renameFile",
+      "key": "r",
+      "when": "filesExplorerFocus && !inputFocus"
+    },
+    {
+      "command": "filesExplorer.copy",
+      "key": "c",
+      "when": "filesExplorerFocus && !inputFocus"
+    },
+    {
+      "command": "filesExplorer.paste",
+      "key": "p",
+      "when": "filesExplorerFocus && !inputFocus"
+    },
+    {
+      "command": "deleteFile",
+      "key": "d",
+      "when": "filesExplorerFocus && !inputFocus"
+    },
+  
+    // Zen mode using ctrl + z
+    {
+      "command": "workbench.action.toggleZenMode",
+      "key": "ctrl+shift+z"
+    },
+    {
+      "command": "-workbench.action.toggleZenMode",
+      "key": "cmd+k z"
+    },
+  
+    // Split using the l and k
+    {
+      "command": "workbench.action.splitEditorRight",
+      "key": "ctrl+l"
+    },
+    {
+      "command": "workbench.action.splitEditorUp",
+      "key": "ctrl+k"
+    },
+    {
+      "command": "workbench.action.splitEditorUp",
+      "key": "ctrl+\\"
+    }
+  ]
