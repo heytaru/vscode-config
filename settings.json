@@ -67,6 +67,6 @@
         "workbench.sideBar.location",
         "editor.scrollbar.horizontal"
     ],
-    "workbench.colorTheme": "One Dark Pro Darker",
-    "workbench.iconTheme": "gruvbox-material-icon-theme",
+    "workbench.colorTheme": "Gruvbox Dark Hard",
+    "workbench.iconTheme": "gruvbox-material-icon-theme"
 }
