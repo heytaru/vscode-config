@@ -62,7 +62,7 @@
       "key": "ctrl+k"
     },
     {
-      "command": "workbench.action.splitEditorUp",
+      "command": "-workbench.action.splitEditorUp",
       "key": "ctrl+\\"
     }
   ]
