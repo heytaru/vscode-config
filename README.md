@@ -5,6 +5,8 @@
 Hi Everyone,  
 This is my vs code config file with the keybindings.
 
+![Image](/Images/VSCode_03_2025.png)
+
 ### How to use it on locally
 
 Clone the repo using the git clone.
